@@ -25,7 +25,6 @@ nav ul {
     padding: 0;
     list-style: none;
 }
-
 nav ul li {
     display: inline-block;
 }
@@ -38,9 +37,6 @@ nav ul li a {
 p{
     font-family: Arial, Helvetica, sans-serif;
 }
-
-  
-
 nav ul li a:hover {
     background-color: #555;
 }
@@ -88,6 +84,7 @@ p{
     padding: 10px;
     text-align: left;
 }
+
 .cuadro {
     display: flex;
     background-color: beige;
@@ -96,6 +93,7 @@ p{
     border: 1px solid;
     
 }
+
 .img{
     text-align: center;
     
@@ -107,19 +105,29 @@ img{
     text-align: center;
 }
 
-
 .contenedor-madre {
     display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: center;
-}
+    grid-template-columns: auto  auto;
+    justify-content: center
+ }
+   
 
 .contenedor-hija {
     color: black;
     object-fit: cover;
     margin: 10px;
     height: 100%;
-    width: 100%;
+    width: 50%;
+}
+#carouselExampleIndicators{
+    text-align: center;
+    padding: 60px;
+    margin: 60px;
+}
+#carouselExampleIndicators{
+    text-align: center;
+    padding: 60px;
+    margin: 60px;
 }
 
 
